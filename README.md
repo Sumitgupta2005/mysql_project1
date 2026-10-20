@@ -4,6 +4,24 @@
 
 ## Project Overview
 
+## Data Dictionary
+
+Table: `retail_sales`
+
+| Column | Type | Description |
+|---|---|---|
+| transactions_id | INT | Unique ID for each transaction |
+| sale_date | DATE | Date of the sale |
+| sale_time | TIME | Time of the sale |
+| customer_id | INT | Unique ID of the customer |
+| gender | VARCHAR | Customer's gender |
+| age | INT | Customer's age |
+| category | VARCHAR | Product category (e.g. Clothing, Electronics, Beauty) |
+| quantity | INT | Number of units sold in the transaction |
+| price_per_unit | FLOAT | Selling price of one unit |
+| cogs | FLOAT | Cost of goods sold (what the store paid for the items) |
+| total_sale | FLOAT | Total sale amount for the transaction |
+
 This project applies core SQL skills to a retail sales dataset. I set up a MySQL database, cleaned the data, explored it, and answered ten business questions using SQL. It is part of my journey to become a Java developer and showcases the fundamentals: DDL/DML, filtering, aggregation, grouping, CTEs, CASE statements and window functions.
 
 ## Objectives
